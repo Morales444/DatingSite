@@ -3,8 +3,69 @@ fieldset {
     border: 10px solid yellow;
     margin-bottom: 10px;
     width: 720px;
-    label: 180px;
 }
 .label-text {
+    width: 180px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+textarea {
+    width: 360px;
+    height: 50px;
+}
+.Info {
+    width: auto;
+}
+h4.Salary {
+    display: inline;
+    font-weight: normal;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+    padding-left:7px ;
+    padding-right: 7px;
+    text-align: center;
+}
+h4.Height {
+    display: inline;
+    font-weight: normal;
+    color: white;
+    background-color: #a70e03;
+    border: 2px solid #a70e03;
+    vertical-align: top;
 
 }
+h4.Poor {
+    display: inline;
+    font-weight: normal;
+    color: white;
+    background-color: #a70e03;
+    border: 2px solid #a70e03;
+    padding-left: 4px;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+h4.Rich {
+    display: inline;
+    font-weight: normal;
+    color: white;
+    background-color: purple;
+    border: 2px solid purple;
+    padding-left: 4px;
+    padding-right: 5px;
+}
+
+input.align {
+    display: table-cell;
+    vertical-align: middle;
+    height: 6px;
+    border: 1px solid ;
+    padding-left: 2.5px;
+}
+
+<style>
+ article, aside, figure, footer, header, hgroup,
+ menu, nav, section { display: block; }
+</style>
