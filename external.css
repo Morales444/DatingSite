@@ -65,6 +65,8 @@ input.align {
     padding-left: 2.5px;
 }
 
+label:hover {font-size: 30px}
+
 <style>
  article, aside, figure, footer, header, hgroup,
  menu, nav, section { display: block; }
